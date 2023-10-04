@@ -35,7 +35,7 @@ const items = ref([
 
 <style lang="scss" scoped>
 h1 {
-  font-family: fantasy;
+  font-family: sans-serif;
   color: white;
   font-size: 25px;
   text-align: center;

@@ -56,7 +56,7 @@ getAllProducts();
   width: 700px;
   //   border: 1px solid red;
   margin: auto;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 .products-list {
@@ -77,7 +77,7 @@ getAllProducts();
   border: none;
   border-radius: 5px;
   transition: all 0.2s linear;
-  font-family: fantasy;
+  font-family: sans-serif;
   margin-left: 20px;
   background-color: white;
   color: rgb(73, 206, 255);
@@ -91,7 +91,7 @@ getAllProducts();
 
 h1 {
   font-size: 40px;
-  font-family: fantasy;
+  font-family: sans-serif;
   color: rgb(73, 206, 255);
   text-align: center;
 }
@@ -101,7 +101,7 @@ h1 {
   border: none;
   border-radius: 5px;
   transition: all 0.2s linear;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 .btn:hover {
@@ -125,7 +125,7 @@ h1 {
   border-radius: 15px;
   background-color: rgb(73, 206, 255);
   color: white;
-  font-family: fantasy;
+  font-family: sans-serif;
   border: none;
   font-size: 18px;
   transition: all 0.2s linear;

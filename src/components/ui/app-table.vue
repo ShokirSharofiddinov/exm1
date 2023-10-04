@@ -43,7 +43,7 @@ const props = defineProps({
 <style lang="scss" scoped>
 .custom-table {
   border-collapse: collapse;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 .custom-table .th {

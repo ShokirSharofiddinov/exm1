@@ -146,7 +146,7 @@ const saveForm = () => {
 <style lang="scss" scoped>
 h1 {
   font-size: 40px;
-  font-family: fantasy;
+  font-family: sans-serif;
   color: rgb(73, 206, 255);
   text-align: center;
 }

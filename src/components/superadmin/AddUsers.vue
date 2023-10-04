@@ -98,7 +98,7 @@ const saveForm = () => {
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
 h1 {
   font-size: 35px;
-  font-family: "Roboto Mono", monospace;
+  font-family: sans-serif;
   color: rgb(73, 206, 255);
   text-align: center;
 }

@@ -86,7 +86,7 @@ const deleteProduct = () => {
   display: flex;
   border: 2px solid rgb(73, 206, 255);
   width: 70%;
-  font-family: fantasy;
+  font-family: sans-serif;
   flex-direction: column;
   border-radius: 10px;
   // position: relative;
