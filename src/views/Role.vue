@@ -23,27 +23,26 @@ const superadmin = () => {
 
 .box {
   width: 40%;
-  height: 50%;
+  height: 55% !important;
   border: 2px solid rgb(73, 206, 255);
   margin: auto;
   margin-top: 130px;
-  font-family: "Sue Ellen Francisco", cursive;
   color: rgb(73, 206, 255);
   display: grid;
   place-items: center;
   border-radius: 15px;
   font-size: 30px;
+  padding: 50px 0;
 }
 
 button {
   width: 300px;
-  padding: 2px 15px;
+  padding: 7px 7px;
   color: #000;
   //   margin-bottom: 30px;
   border-radius: 15px;
   background-color: rgb(73, 206, 255);
   color: white;
-  font-family: "Sue Ellen Francisco", cursive;
   border: none;
   font-size: 23px;
   transition: all 0.2s linear;

@@ -83,6 +83,8 @@ const login = () => {
         localStorage.setItem("token", data.token);
         localStorage.setItem("roles", JSON.stringify(data.roles));
         if (data.roles.includes("admin") && data.roles.includes("superadmin")) {
+          localStorage.setItem("roles", JSON.stringify(data.roles));
+
           router.push({ name: "role" });
         } else if (data.roles.includes("admin")) {
           router.push({ name: "admin" });

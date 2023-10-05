@@ -19,7 +19,7 @@
 import http from "../plugins/axios";
 import Notification from "../plugins/Notification";
 import { ref } from "vue";
-  import add_user from "../pages/add_user.vue";
+import add_user from "../pages/add_user.vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
 
@@ -86,7 +86,7 @@ getAllUsers();
   border: 1px solid rgb(73, 206, 255);
 }
 .list-item button:hover {
-  scale: 1.1;
+  scale: 0.9;
   background-color: rgb(73, 206, 255);
   color: white;
 }

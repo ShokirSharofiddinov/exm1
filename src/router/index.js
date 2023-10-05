@@ -10,24 +10,29 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
-  const role = localStorage.getItem("roles");
-  console.log(from);
-  console.log(to.name);
-  console.log(role);
-  const arr = ["superadmin", "add_users", "users"];
-  const arr2 = ["admin", "products"];
-  if (!role && (arr.includes(to.name) || arr2.includes(to.name))) {
-    console.log(1);
-    next(from);
-  } else if (role && to.name == "signin") {
-    console.log(2);
-    next(from);
-  } 
-  else {
-    console.log(3);
-    next();
-  }
-});
+// router.beforeEach((to, from, next) => {
+//   const role = localStorage.getItem("roles");
+//   console.log(from);
+//   console.log(to.name);
+//   console.log(role);
+//   const arr = ["superadmin", "add_users", "users", ""];
+//   const arr2 = ["admin", "products"];
+//   if (role == null && from.name != "signin") {
+//     next({ name: "signin" });
+//   } else if (!role && (arr.includes(to.name) || arr2.includes(to.name))) {
+//     console.log(1);
+//     next(from);
+//   } else if (role && to.name == "signin") {
+//     console.log(2);
+//     if (from) {
+//       next(from);
+//     } else {
+//       next(role);
+//     }
+//   } else {
+//     console.log(3);
+//     next();
+//   }
+// });
 
 export default router;

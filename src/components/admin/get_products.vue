@@ -84,7 +84,7 @@ getAllProducts();
   border: 1px solid rgb(73, 206, 255);
 }
 .list-item button:hover {
-  scale: 1.1;
+  scale: 0.9;
   background-color: rgb(73, 206, 255);
   color: white;
 }
@@ -105,7 +105,7 @@ h1 {
 }
 
 .btn:hover {
-  scale: 1.1;
+  scale: 0.9;
 }
 
 .delete {
